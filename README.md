@@ -221,18 +221,16 @@ make
 で実行ファイルa.outが作成されます。
 ```sh
 pi@raspberrypi:~/gopct $ cd build
-pi@raspberrypi:~/gopct/build $ cmake
-Usage
-
-  cmake [options] <path-to-source>
-  cmake [options] <path-to-existing-build>
-
-Specify a source directory to (re-)generate a build system for it in the
-current working directory.  Specify an existing build directory to
-re-generate its build system.
-
-Run 'cmake --help' for more information.
-
+-- The CXX compiler identification is GNU 6.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/GOP-CT70A-LinuxHost-Sample/build
 pi@raspberrypi:~/gopct/build $ make
 [100%] Built target a.out
 pi@raspberrypi:~/gopct/build $ ./a.out
